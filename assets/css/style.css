@@ -99,7 +99,7 @@ h6 {
 /* ================ Home Design Start ================ */
 .hero{
     width: 100%;
-    height: calc(100vh - 83px);
+    height: auto;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../image/bg-indiagate-delhi.webp');
     background-position: center;
     background-repeat: no-repeat;
