@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*  ================ Table of Content End ================
+        1. Fonts
+        2. Reset
+        3. Variables
+        4. Global
+        5. Header
+        6. Home
+         
+
+    ================ Table of Content End ================ */
+
+
+ 
+ 
+/* ======== Reset ======== */
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active,
+a:focus {
+    outline: none;
+}
+
+
+/* ======== Variables ========*/
+
+:root {
+    --bg-color: #f58322;
+    --t-color:#f58322; 
+   
+}
+
+
+/* ======== Global ========*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+
+    font-family: 'Roboto', sans-serif;
+}
+ 
+ h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}  
+
+.bg-color {
+    background-color: var(--bg-color);
+} 
+ 
+.cus-border{
+    border:1px solid var(--bg-color);
+}
+.cus-hover:hover{
+    background-color: #f58322;
+}
+.opcity-75 {
+    opacity: 0.75;
+}
+
+ 
+
+.t-color {
+    color: var(--t-color);
+}
+
+/* ================ Global Class End ================ */
+
+/* ================ Home Design Start ================ */
+.hero{
+    width: 100%;
+    height: calc(100vh - 83px);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../image/bg-indiagate-delhi.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+ .welcome-intro h1{
+    font-size: 75px;
+ }
+/* Features Animation */
+.dynamic-text{
+height: 55px;
+padding: 0; 
+overflow: hidden;
+ 
+}
+.dynamic-text li{
+    color: #f58322;
+    list-style: none;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    top: -10px;
+    animation: slide 10s steps(4) infinite;
+    /* animation-delay:10s; */
+  animation-fill-mode: both;
+}
+@keyframes slide{
+    100%{
+        top: -300px;
+    }
+
+   /* 0%{
+       top: 0px;
+    }
+    50%{
+        top: -89px;
+     }
+     100%{
+        top: -165px;
+     } */
+}
+.dynamic-text li span{
+    position: relative;
+}
+  .dynamic-text li span::after{
+content: "";
+position: absolute;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: white;
+border-left: 2px solid #f58322;
+animation: typing 3s ease-in-out infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        /* margin: 0 -35px 0 35px; */
+    }
+}  
+
+/* ================ Home Design End ================ */
+
+/* ================ Customer Engaged section ================ */
+
+.d-box-1{
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/circel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-box{
+    padding: 70px 0;
+}
+.d-box-1 h3 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #25aae1;
+}
+.d-box-1 h5{
+    background-color: #25aae1;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    max-width: 260px;
+}
+ 
+.d-box-1 p{
+    padding: 0 70px;
+}
+ /************************ keybenifits******************** */
+ .key-benifits-icon h3{
+    font-size: 18px;
+    color: white; 
+    margin-top: 10px;
+ }
+ /* technology */
+ .content1{
+    width: 100%;
+    height: auto;
+   
+    padding: 5px;
+    margin-top: 30px;
+    display: none;
+  }
+  
+  .block{
+    display: block;
+  }
+/* =================================================  
+    ************  Responsive Class End ************
+   =================================================  */
+@media (max-width:620px){
+    .welcome-intro{
+        text-align: center!important;
+        height: auto!important;
+    }
+    .welcome-intro h1{
+        font-size: 30px; 
+     }
+     .dynamic-text{
+        height: 30px; 
+     }
+     .dynamic-text li{
+         top: -2px;
+        font-size: 25px;
+}
+.t-area{
+    height: auto!important;
+}
+.home-right {
+    height: auto!important;
+}
+}
+/* ==== tablet View ==== */
+  @media (max-width:720px){
+    .welcome-intro{
+        text-align: center!important;
+    }
+    .welcome-intro h1{
+        font-size: 45px;
+     }
+}
+@media (max-width:950px){ 
+    .welcome-intro h1{
+        font-size: 45px;
+     }
+}
+/* Engage section */
+  @media only screen and (max-width: 375px){
+  .d-box-1 h5 {
+    font-size: 12px;
+}
+.d-box-1 {
+    padding: 0 82px;
+    font-size: 13px;
+}
+}
+@media (max-width: 480px){
+.d-box-1 h5 {
+    font-size: 14px;
+}
+.d-box-1 {
+    padding: 0 52px;
+    font-size: 13px;
+}
+}
+@media only screen and (max-width: 767px){
+.d-box-1 h5 {
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 1024px){
+.engagement .section .h5, .engagement .section h5 {
+    font-size: 13px;
+}
+}
+@media only screen and (max-width: 1399px){
+.d-box-1 h5 {
+    font-size: 15px;
+    max-width: 210px;
+}
+}  
+
+/* test */
+
+  

@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekniko Global | App Development Company</title>
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- **********************slick slider ******************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custome Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/image/logo.png" alt="company_logo" class="img-fluid" style="width: 100px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Our Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Our Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Home/Hero Page -->
+    <section class=" hero ">
+        <div class="container h-100">
+            <div class="row  h-100 align-items-center  ">
+                <div class="col-12 col-md-6 ">
+                    <div class="welcome-intro  bg-white p-4 rounded" style="height:450px;">
+                        <h2 class="text-dark">We are Experts in</h2>
+                        <ul class="dynamic-text">
+                            <li><span>Ios Development</span></li>
+                            <li><span>Web Development</span></li>
+                            <li><span>Android Development</span></li>
+
+                        </ul>
+                        <h2 class="text-dark">Mobile App Development</h2>
+                        <p class="t-color">We are an award-winning mobile app development company that enables
+                            thriving startups &
+                            giant enterprises to solve complex business challenges through mobility solutions.</p>
+                        <h4><b class="fw-bold text-primary">Build Your Sucess Online</b></h4>
+                        <div class="row justify-content-between mt-4 d-none d-md-flex ">
+                            <div class="col-3">
+                                <div class="and-app text-center">
+                                    <img src="assets/image/androidBlack.svg" alt="appbalck" class="img-fluid"
+                                        style="width:50px;height:50px;">
+                                    <span class="d-block">Android</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="and-app text-center">
+                                    <img src="assets/image/appleBlack.svg" alt="appbalck" class="img-fluid"
+                                        style="width:50px;height:50px;">
+                                    <span class="d-block">iOS App</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="and-app text-center">
+                                    <img src="assets/image/hybridBlack.webp" alt="appbalck" class="img-fluid"
+                                        style="width:50px;height:50px;">
+                                    <span class="d-block">Hybrid App</span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="and-app text-center">
+                                    <img src="assets/image/web-appBlack.svg" alt="appbalck" class="img-fluid"
+                                        style="width:50px;height:50px;">
+                                    <span class="d-block">Web App</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--  -->
+                <div class="col-12 col-md-6 ">
+                    <div class="home-right  bg-color p-4 rounded" style="height:450px;">
+                        <h2 class="py-2 fs-1 fw-bolder text-white">Let’s Talk About Your idea</h2>
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="InputName" placeholder="First Name*"
+                                    required aria-required="true">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="InputName" placeholder="Last Name*" required
+                                    aria-required="true">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="InputNumber" placeholder="Mobile Number"
+                                    required aria-required="true">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address*"
+                                    required aria-required="true">
+                            </div>
+                            <div class="col-md-12">
+                                <select style="padding:6px 10px !important;" id="service_slug" name="service_slug"
+                                    class=" form-control dropdown  text-muted  " required="">
+                                    <option value="" selected="">Choose Category</option>
+                                    <option value="On Demand App (App Development)"> On Demand App </option>
+                                    <option value="E-Commerce &amp; Marketplace (App Development)"> E-Commerce &amp;
+                                        Marketplace </option>
+                                    <option value="Food &amp; Beverage (App Development)"> Food &amp; Beverage </option>
+                                    <option value="Pickup &amp; Delivery (App Development)"> Pickup &amp; Delivery
+                                    </option>
+                                    <option value="Healthcare &amp; Medical (App Development)"> Healthcare &amp; Medical
+                                    </option>
+                                    <option value="Trading App (App Development)"> Trading App </option>
+                                    <option value="Laundry &amp; Home Service (App Development)"> Laundry &amp; Home
+                                        Service </option>
+                                    <option value="Real Estate (App Development)"> Real Estate </option>
+                                    <option value="Banking &amp; Finance (App Development)"> Banking &amp; Finance
+                                    </option>
+                                    <option value="Education &amp; Learning (App Development)"> Education &amp; Learning
+                                    </option>
+                                    <option value="Transportation (App Development)"> Transportation </option>
+                                    <option value="Game App (App Development)"> Game App </option>
+                                    <option value="Luxary Clothing (App Development)"> Luxary Clothing </option>
+                                    <option value="Skin Care (App Development)"> Skin Care </option>
+                                    <option value="IOT (App Development)">IOT</option>
+                                    <option value="others (App Development)">Others</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control t-area" aria-label="With textarea" placeholder="Message*"
+                                    style="height:131px;"></textarea>
+                            </div>
+
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn bg-dark text-white">Reach Us</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How to start the Engagement customer -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="text-center">
+                    <h2> How to start the Engagement </h2>
+                    <p>We are flexible and can help you at different stages with customized services</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="d-box-1  ">
+                        <div class="text-center main-box  ">
+                            <div class="icon">
+                                <h3>1</h3>
+                            </div>
+                            <h5>Discovery</h5>
+                            <p class="">We will help you in creating intuitive UI &amp; UX for your product</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-12 col-md-4">
+                    <div class="d-box-1  ">
+                        <div class="text-center main-box  ">
+                            <div class="icon">
+                                <h3 class="text-primary">2</h3>
+                            </div>
+                            <h5 class="bg-primary">Documentation Phase</h5>
+                            <p class=" " style="padding: 0 80px!important;">We will help you to analyse the gap and
+                                perform a granular analysis of the requirement</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-12 col-md-4">
+                    <div class="d-box-1  ">
+                        <div class="text-center main-box ">
+                            <div class="icon">
+                                <h3 class="text-success">3</h3>
+                            </div>
+                            <h5 class="bg-success">UI & UX Consulting</h5>
+                            <p class="">We will design, develop & deploy your product in this model</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3 g-3">
+                    <!--  -->
+                    <div class="col-12 col-md-4">
+                        <div class="d-box-1 ">
+                            <div class="text-center main-box  ">
+                                <div class="icon">
+                                    <h3 class="text-danger">4</h3>
+                                </div>
+                                <h5 class="bg-danger">Development &amp; Deployment</h5>
+                                <p class="">We design, develop &amp; deploy your product in this model</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!--  -->
+                    <div class="col-12 col-md-4">
+                        <div class="d-box-1 ">
+                            <div class="text-center main-box ">
+                                <div class="icon">
+                                    <h3 class="text-warning">5</h3>
+                                </div>
+                                <h5 class="bg-warning">Quality Management System</h5>
+                                <p class="">We will help you in creating intuitive UI & UX for your product</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--************************** Key benifits*********************** -->
+    <section class="py-5 mt-3" style="background-color:#404041;">
+        <div class="container">
+            <div class="row sliders ">
+                <div class="col-12 mt-5 mt-md-0  mx-2 text-center">
+                    <div class="key-benifits-icon  ">
+                        <img src="assets/image/1.png" alt="key-benifits-icon" class="img-fluid mx-auto" width="100">
+
+                        <h3>Dedicated developer</h3>
+                    </div>
+                </div>
+                <div class="col-12  mx-2 text-center mt-5 mt-md-0 ">
+                    <div class="key-benifits-icon ">
+                        <img src="assets/image/2.png" alt="key-benifits-icon" class="img-fluid  mx-auto" width="100">
+                        <h3>Flexible hiring Models</h3>
+                    </div>
+                </div>
+                <div class="col-12   mx-2 text-center mt-5 mt-md-0">
+                    <div class="key-benifits-icon  ">
+                        <img src="assets/image/3.png" alt="key-benifits-icon" class="img-fluid  mx-auto" width="100">
+
+                        <h3>Agile Methodology</h3>
+                    </div>
+                </div>
+                <div class="col-12  mx-2 text-center mt-5 mt-md-0">
+                    <div class="key-benifits-icon ">
+                        <img src="assets/image/4.png" alt="key-benifits-icon" class="img-fluid  mx-auto" width="100">
+
+                        <h3>Simple transparent Pricing</h3>
+                    </div>
+                </div>
+                <div class="col-12  mx-2 text-center mt-5 mt-md-0">
+                    <div class="key-benifits-icon  ">
+                        <img src="assets/image/5.png" alt="key-benifits-icon" class="img-fluid  mx-auto" width="100">
+                        <h3>Anytime Availability</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--************************ Our client Section ****************** -->
+    <section class="py-5">
+        <div class="container ">
+            <div class="text-center my-4">
+                <h2 class=" text-dark">Clients Served</h2>
+                <p class=" text-dark">Our development partners have proudly served these businesses and many more.</p>
+            </div>
+            <div class="row g-3 ">
+                <div class="col-6 col-md-3">
+                    <div class="client-img">
+                        <img src="assets/image/fresca_logo.webp" alt="">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-6 col-md-3">
+                    <div class="client-img">
+                        <img src="assets/image/fresca_logo.webp" alt="">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-6 col-md-3">
+                    <div class="client-img">
+                        <img src="assets/image/fresca_logo.webp" alt="">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-6 col-md-3">
+                    <div class="client-img">
+                        <img src="assets/image/fresca_logo.webp" alt="">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-6 col-md-3">
+                    <div class="client-img">
+                        <img src="assets/image/fresca_logo.webp" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--************************ Our Client Section ****************** -->
+
+
+    <!-- **************************Technology Sec Start ************************* -->
+    <section class="py-5" style="background-color:#404041;">
+        <div class="container">
+            <div class="row">
+                <div class="text-center my-4">
+                    <h2 class=" text-white">Technologies we Play with</h2>
+                    <p class=" text-white">The experience of working with a team where there are no strings of
+                        risk-factor attached</p>
+                </div>
+                <div class="d-flex justify-content-center aling-items-center">
+                    <ul class="d-flex justify-content-between aling-items-center nav">
+                        <li class=" ">
+                            <a href="javascript:void(0)" class="btn cus-border cus-hover text-white mx-1 rounded-pill"
+                                onclick="show('Mobile')"> Mobile App Development</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"
+                                class="btn cus-border cus-hover text-white mx-1 rounded-pill  mt-3 mt-md-0 "
+                                onclick="show('Web')">Web
+                                Development</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"
+                                class="btn cus-border cus-hover text-white mx-1 rounded-pill mt-3 mt-md-0"
+                                onclick="show('App')"> App Layer</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"
+                                class="btn cus-border cus-hover text-white mx-1 rounded-pill mt-3 mt-md-0"
+                                onclick="show('Database')"> Database </a>
+                        </li>
+                    </ul>
+                    <ul class="d-flex justify-content-between aling-items-center nav ">
+                        <li class=" ">
+                            <a href="javascript:void(0)" class="btn cus-border cus-hover text-white mx-1 rounded-pill "
+                                onclick="show('Frameworks')"> Frameworks </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"
+                                class="btn cus-border cus-hover text-white mx-1 rounded-pill mt-3 mt-md-0"
+                                onclick="show('Devops')"> Devops </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"
+                                class="btn cus-border cus-hover text-white mx-1 rounded-pill mt-3 mt-md-0"
+                                onclick="show('Hosting')"> Hosting </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"
+                                class="btn cus-border cus-hover text-white mx-1 rounded-pill mt-3 mt-md-0"
+                                onclick="show('Visualization')"> Visualization </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- mobile app content -->
+                <div class="content1  " id="Mobile">
+                    <div class="row g-3 justify-content-between">
+                        <div class="col-6 col-md-2 ">
+                            <div class="language-c text-center   border-bottom">
+                                <a href="#"> <img src="assets/image/lang-1.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Objective C</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2">
+                            <div class="language-c text-center   border-bottom">
+                                <a href="#"> <img src="assets/image/swift.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Swift</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/fluter.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Flutter</h4>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="col-6 col-md-2">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/kotlin.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Kotlin</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/react-native.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">React Native</h4>
+                            </div>
+                        </div>
+
+                        <!--  -->
+
+
+                        <!--  -->
+                        <div class="col-6 col-md-2">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/ionic.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Ionic</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2 mx-auto">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/java.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Java</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- web-content -->
+                <div class="content1  " id="Web">
+                    <div class="row g-3 justify-content-between">
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/html.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">HTML</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2   ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/css.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">CSS</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2   ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/bootstrap.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Bootstrap</h4>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="col-6 col-md-2 ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/strapi.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Strapi</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/react-native.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">React Js</h4>
+                            </div>
+                        </div>
+
+                        <!--  -->
+
+
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/angular.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Angular Js</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2 mx-auto ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/vue.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Vue Js</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2 mx-auto  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/Ember.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Ember Js</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- App Layer -->
+                <div class="content1  " id="App">
+                    <div class="row g-3 justify-content-between">
+                        <div class="col-6 col-md-2   ">
+                            <div class="language-c text-center   border-bottom">
+                                <a href="#"> <img src="assets/image/java.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Java</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/php.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Php</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2    ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/dotNet.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">.Net</h4>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom">
+                                <a href="#"> <img src="assets/image/swagger.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Swagger</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/lambada.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Lambda</h4>
+                            </div>
+                        </div>
+
+                        <!--  -->
+
+
+                        <!--  -->
+                        <div class="col-6 col-md-2 ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/cloud.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Cloud</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2 mx-auto  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/pub sub.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Pub sub</h4>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 mx-auto  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/nodejs.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Node Js </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Database -->
+                <div class="content1  " id="Database">
+                    <div class="row g-3 justify-content-between">
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/mango.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Mongo DB</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2   ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/mysql.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">My SQL</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2   ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/postagesql.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Postgre SQL</h4>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/sqlserver.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">SQL Server</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2   ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/firebase.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Firebase</h4>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2 ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/ionic.png" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Ionic</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2 mx-auto  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/Dymbo.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Dynambo DB</h4>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-2 mx-auto   ">
+                            <div class="language-c text-center   border-bottom">
+                                <a href="#"> <img src="assets/image/BigQuery.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Big Query</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Frameworks -->
+                <div class="content1  " id="Frameworks">
+                    <div class="row g-3 justify-content-between">
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center   border-bottom">
+                                <a href="#"> <img src="assets/image/wrodpress.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Wrodpress</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/laravel.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Laravel</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/zend.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Zend</h4>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/codeigniter.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">CodeIgniter</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Devops -->
+                <div class="content1  " id="Devops">
+                    <div class="row g-3 justify-content-between">
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center  border-bottom ">
+                                <a href="#"> <img src="assets/image/jenkins.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Jenkins</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2   ">
+                            <div class="language-c text-center border-bottom ">
+                                <a href="#"> <img src="assets/image/chef_logo.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">CHEF</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2    ">
+                            <div class="language-c text-center border-bottom ">
+                                <a href="#"> <img src="assets/image/kubernetes.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Kubernates</h4>
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center border-bottom ">
+                                <a href="#"> <img src="assets/image/ansible.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Ansible</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hosting -->
+                <div class="content1  " id="Hosting">
+                    <div class="row g-3 justify-content-between">
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center border-bottom ">
+                                <a href="#"> <img src="assets/image/aws.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">AWS</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2   ">
+                            <div class="language-c text-center border-bottom ">
+                                <a href="#"> <img src="assets/image/google.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Google Cloud</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2   ">
+                            <div class="language-c text-center border-bottom ">
+                                <a href="#"> <img src="assets/image/azure.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Azure</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- visualization -->
+                <div class="content1  " id="Visualization">
+                    <div class="row g-3 justify-content-between">
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center border-bottom ">
+                                <a href="#"> <img src="assets/image/tableau.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Tableau</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center border-bottom ">
+                                <a href="#"> <img src="assets/image/google_data_studio.svg" alt="language-c"
+                                        class="img-fluid" width="50"></a>
+                                <h4 class="text-white fs-5">Google Data Studio</h4>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-6 col-md-2  ">
+                            <div class="language-c text-center border-bottom ">
+                                <a href="#"> <img src="assets/image/azure.svg" alt="language-c" class="img-fluid"
+                                        width="50"></a>
+                                <h4 class="text-white fs-5">Azure Power</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- **************************Technology Section End************************* -->
+    <!--  -->
+
+    <section class="py-5">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <h4 class="indus">
+                    <b>INDUSTRIES WE WORK FOR</b>
+                </h4>
+                <h6 class="mb-3">
+                    Helping Businesses in All Domains
+                    Successfully delivered projects for various industry.
+                </h6>
+            </div>
+
+            <div class="row mt-3 g-3">
+                <div class="col-lg-3 col-md-6 div">
+                    <a href="https://www.teknikoglobal.com/taxi-booking-app-development-company">
+                        <img src="https://www.teknikoglobal.com/assets/images/taxi-booking.jpeg" alt="taxi booking"
+                            class="img-fluid">
+                        <h5 class="entry-title mt-2">Taxi Booking
+
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 div">
+                    <a href="https://www.teknikoglobal.com/food-delivery-app-development-company">
+                        <img src="https://www.teknikoglobal.com/assets/images/food-and-beverage.jpg"
+                            alt=" Food and beverage" class="img-fluid">
+                        <h5 class="entry-title mt-2">Food and beverage
+
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 div">
+                    <a href="https://www.teknikoglobal.com/education-app-development-company">
+                        <img src="https://www.teknikoglobal.com/assets/images/education-industry.jpg" alt="Education"
+                            class="img-fluid">
+                        <h5 class="entry-title mt-2">Education
+
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 div">
+                    <a href="https://www.teknikoglobal.com/media-entertainment-app-development">
+                        <img src="https://www.teknikoglobal.com/assets/images/social-media.jpg"
+                            alt="Social and entertainment" class="img-fluid">
+                        <h5 class="entry-title mt-2">Social and entertainment
+
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 div">
+                    <a href="https://www.teknikoglobal.com/ecommerce-app-development-company">
+                        <img src="https://www.teknikoglobal.com/assets/images/retail-ecommerce.jpg"
+                            alt="Retail &amp; Ecommerce" class="img-fluid">
+                        <h5 class="entry-title mt-2">Retail &amp; Ecommerce
+
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 div">
+                    <a href="https://www.teknikoglobal.com/healthcare-app-development-company">
+                        <img src="https://www.teknikoglobal.com/assets/images/health-industry.jpg"
+                            alt="Health &amp; Fitness" class="img-fluid">
+                        <h5 class="entry-title mt-2">Health &amp; Fitness
+
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 div">
+                    <a href="https://www.teknikoglobal.com/astrology-app-development-company">
+                        <img src="https://www.teknikoglobal.com/assets/images/astrology.jpg" alt="Astrology"
+                            class="img-fluid">
+                        <h5 class="entry-title mt-2">Astrology
+
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 div">
+                    <a href="https://www.teknikoglobal.com/food-delivery-app-development-company">
+                        <img src="https://www.teknikoglobal.com/assets/images/restrorent-service.jpg" alt="
+                            Restaurant Service" class="img-fluid">
+                        <h5 class="entry-title mt-2">Restaurant Service
+
+                        </h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***********************Pride Section************************ -->
+    <section>
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2>Our Pride</h2>
+                <p>Explore the feathers in our hat</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="achievements-logos">
+                        <ul class="d-flex align-items-center justify-content-around flex-wrap">
+                            <li class="text-center">
+                                 <img src="assets/image/pride-1.png" alt="" class="img-fluid" style="width: 130px; height: 90px;"></li>
+                            <li class="text-center">
+                                <img src="assets/image/pride-2.png" alt=""  class="img-fluid" style="width: 130px; height: 90px;"> </li>
+                            <li class="text-center">
+                                <img src="assets/image/pride-3.png" alt="" class="img-fluid" style ="width: 130px; height: 90px;">  </li>
+                            <li class="text-center">
+                                <img src="assets/image/pride-4.png" alt="" class="img-fluid" style ="width: 130px; height: 90px;"> </li>
+                            <li class="text-center">
+                                <img src="assets/image/pride-5.png" alt="" class="img-fluid" style ="width: 130px; height: 90px;">  </li>
+                            <li class="text-center">
+                                <img src="assets/image/pride-6.png" alt="" class="img-fluid" style ="width: 130px; height: 90px;">  </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Custome js CDN Link -->
+    <!-- ************************ jquery******************* -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!--      slick slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
