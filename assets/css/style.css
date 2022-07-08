@@ -88,6 +88,9 @@ h6 {
     opacity: 0.75;
 }
 
+.bg-linear{
+    background-image: linear-gradient(20deg,rgba(245,231,34,0.4),rgba(145,231,34,0.4));
+}
  
 
 .t-color {
@@ -97,73 +100,45 @@ h6 {
 /* ================ Global Class End ================ */
 
 /* ================ Home Design Start ================ */
-.hero{
+   .hero{
     width: 100%;
     height: auto;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../image/bg-indiagate-delhi.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 50px;
-
-}
+    background-image: linear-gradient(20deg,rgba(245,231,34,0.4),rgba(145,231,34,0.4));
+ }  
  .welcome-intro h1{
-    font-size: 75px;
- }
-/* Features Animation */
-.dynamic-text{
-height: 55px;
-padding: 0; 
-overflow: hidden;
- 
-}
-.dynamic-text li{
-    color: #f58322;
-    list-style: none;
     font-size: 50px;
-    font-weight: 700;
-    position: relative;
-    top: -10px;
-    animation: slide 10s steps(4) infinite;
-    /* animation-delay:10s; */
-  animation-fill-mode: both;
+ }
+ .welcome-intro h2{
+     font-weight: 400!important;
+    line-height: 50px;
+ }
+ /* Mobile frame style */
+ .phone {
+    width: 250px;
+    height: 450px;
+   
+  border: 40px solid #121212;
+  border-width: 55px 7px;
+  border-radius: 40px;
+  margin: 50px auto;
+  overflow: hidden;
+  transition: all 0.5s ease;
+ background-color: #fff;
+ box-shadow: 0px 15px 10px -15px #111;    
 }
-@keyframes slide{
-    100%{
-        top: -300px;
-    }
-
-   /* 0%{
-       top: 0px;
-    }
-    50%{
-        top: -89px;
-     }
-     100%{
-        top: -165px;
-     } */
+.cus-form .form-control {
+    padding: 0!important;
+    padding-left: 6px!important;
+    box-shadow: none!important;
 }
-.dynamic-text li span{
-    position: relative;
+.cus-form .form-select option{
+    font-size: 14px!important;
 }
-  .dynamic-text li span::after{
-content: "";
-position: absolute;
-left: 0;
-height: 100%;
-width: 100%;
-background-color: white;
-border-left: 2px solid #f58322;
-animation: typing 3s ease-in-out infinite;
+.cus-form label{
+    padding-bottom: 4!important;
+    font-size: 14px!important;
 }
-@keyframes typing{
-    100%{
-        left: 100%;
-        /* margin: 0 -35px 0 35px; */
-    }
-}  
-
+ 
 /* ================ Home Design End ================ */
 
 /* ================ Customer Engaged section ================ */
@@ -217,7 +192,7 @@ animation: typing 3s ease-in-out infinite;
     display: block;
   }
 /* =================================================  
-    ************  Responsive Class End ************
+    ************  Responsive Class  Start ************
    =================================================  */
 @media (max-width:620px){
     .welcome-intro{
@@ -250,7 +225,10 @@ animation: typing 3s ease-in-out infinite;
         text-align: center!important;
     }
     .welcome-intro h1{
-        font-size: 45px;
+        font-size: 35px;
+     }
+     .welcome-intro h2{
+        font-size: 25px;
      }
 }
 @media (max-width:950px){ 
