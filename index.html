@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -23,54 +23,49 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light   bg-color">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/image/logo.png" alt="company_logo" class="img-fluid" style="width: 100px;">
+            <a class="navbar-brand   w-50" href="#">
+                <img src="assets/image/logo.png" alt="BrandLogo" width="30%" height="25%" class="img-fluid">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-2">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-white" href="#">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Our Clients</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Our Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Contact</a>
+                        <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
     <!-- Home/Hero Page -->
     <section class=" hero ">
-        <div class="container h-100">
-            <div class="row  h-100 align-items-center  ">
+        <div class="container ">
+            <div class="row py-5 ">
                 <div class="col-12 col-md-6 ">
-                    <div class="welcome-intro  bg-white p-4 rounded" style="height:450px;">
-                        <h2 class="text-dark">We are Experts in</h2>
-                        <ul class="dynamic-text">
-                            <li><span>Ios Development</span></li>
-                            <li><span>Web Development</span></li>
-                            <li><span>Android Development</span></li>
+                    <div class="welcome-intro  p-4 rounded" style="height:450px;">
+                        <h2 class="text-dark">We are Experts in<br></h2>
+                        <h1> <span class="type t-color"></span> </h1>
 
-                        </ul>
-                        <h2 class="text-dark">Mobile App Development</h2>
-                        <p class="t-color">We are an award-winning mobile app development company that enables
+                        <h2 class="text-info">Experience A World-Class
+                            Mobile App Development Service in India</h2>
+                        <p class="text-info">We are an award-winning mobile app development company that enables
                             thriving startups &
                             giant enterprises to solve complex business challenges through mobility solutions.</p>
-                        <h4><b class="fw-bold text-primary">Build Your Sucess Online</b></h4>
-                        <div class="row justify-content-between mt-4 d-none d-md-flex ">
+                        <h4><b class="fw-bold text-dark">Build Your Sucess Online</b></h4>
+                        <!-- <div class="row justify-content-between mt-4 d-none d-md-flex ">
                             <div class="col-3">
                                 <div class="and-app text-center">
                                     <img src="assets/image/androidBlack.svg" alt="appbalck" class="img-fluid"
@@ -99,13 +94,82 @@
                                     <span class="d-block">Web App</span>
                                 </div>
                             </div>
+                        </div> -->
+                        <div class="mt-3">
+                            <button class="btn btn-primary">Contact Now</button>
                         </div>
                     </div>
 
                 </div>
                 <!--  -->
-                <div class="col-12 col-md-6 mt-3 mt-md-0">
-                    <div class="home-right  bg-color p-4 rounded" style="height:450px;">
+                <div class="col-12 col-md-6 mt-3 mt-md-0  ">
+                    <div id="wrapper">
+                        <div class="phone view_2" id="phone_1">
+                            <div class="row">
+                                <h2 class="py-1  fw-bolder text-dark fs-5 text-center bg-info">Let’s Talk About Your
+                                    idea</h2>
+                                <div class="col-12 px-3">
+                                    <div class="mb-1 cus-form">
+                                        <label for="formGroupExampleInput" class="form-label text-dark">Full
+                                            Name</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput">
+                                    </div>
+                                    <div class="mb-1 cus-form">
+                                        <label for="formGroupExampleInput2" class="form-label text-dark">Email
+                                            Id</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2">
+                                    </div>
+                                    <div class="mb-1 cus-form">
+                                        <label for="formGroupExampleInput2" class="form-label text-dark">mobile
+                                            Number</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2">
+                                    </div>
+                                    <div class="mb-2 mt-3 cus-form">
+
+                                        <select class="form-select" aria-label=" ">
+                                            <option selected disabled>Select Category</option>
+                                            <option value="On Demand App (App Development)"> On Demand App </option>
+                                            <option value="E-Commerce &amp; Marketplace (App Development)"> E-Commerce
+                                                &amp;
+                                                Marketplace </option>
+                                            <option value="Food &amp; Beverage (App Development)"> Food &amp; Beverage
+                                            </option>
+                                            <option value="Pickup &amp; Delivery (App Development)"> Pickup &amp;
+                                                Delivery
+                                            </option>
+                                            <option value="Healthcare &amp; Medical (App Development)"> Healthcare &amp;
+                                                Medical
+                                            </option>
+                                            <option value="Trading App (App Development)"> Trading App </option>
+                                            <option value="Laundry &amp; Home Service (App Development)"> Laundry &amp;
+                                                Home
+                                                Service </option>
+                                            <option value="Real Estate (App Development)"> Real Estate </option>
+                                            <option value="Banking &amp; Finance (App Development)"> Banking &amp;
+                                                Finance
+                                            </option>
+                                            <option value="Education &amp; Learning (App Development)"> Education &amp;
+                                                Learning
+                                            </option>
+                                            <option value="Transportation (App Development)"> Transportation </option>
+                                            <option value="Game App (App Development)"> Game App </option>
+                                            <option value="Luxary Clothing (App Development)"> Luxary Clothing </option>
+                                            <option value="Skin Care (App Development)"> Skin Care </option>
+                                            <option value="IOT (App Development)">IOT</option>
+                                            <option value="others (App Development)">Others</option>
+                                        </select>
+                                    </div>
+                                    <div class="text-center mt-3">
+                                        <button type="submit" class="btn btn-primary mx-auto">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <iframe src="http://aamnah.com" id="frame_1"></iframe> -->
+
+                    </div>
+                </div>
+                <!-- <div class="home-right  bg-color p-4 rounded" style="height:450px;">
                         <h2 class="py-2 fs-1 fw-bolder text-white">Let’s Talk About Your idea</h2>
                         <form class="row g-3">
                             <div class="col-md-6">
@@ -161,9 +225,9 @@
                                 <button type="submit" class="btn bg-dark text-white">Reach Us</button>
                             </div>
                         </form>
-                    </div>
-                </div>
+                    </div> -->
             </div>
+        </div>
         </div>
     </section>
     <!-- How to start the Engagement customer -->
@@ -341,14 +405,13 @@
                         risk-factor attached</p>
                 </div>
                 <div class="d-flex justify-content-center aling-items-center">
-                    <ul class="d-flex justify-content-between aling-items-center nav">
+                    <ul class="d-flex justify-content-between aling-items-center nav flex-wrap">
                         <li class=" ">
                             <a href="javascript:void(0)" class="btn cus-border cus-hover text-white mx-1 rounded-pill"
                                 onclick="show('Mobile')"> Mobile App Development</a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)"
-                                class="btn cus-border cus-hover text-white mx-1 rounded-pill  mt-3 mt-md-0 "
+                            <a href="javascript:void(0)" class="btn cus-border cus-hover text-white mx-1 rounded-pill  "
                                 onclick="show('Web')">Web
                                 Development</a>
                         </li>
@@ -362,10 +425,10 @@
                                 class="btn cus-border cus-hover text-white mx-1 rounded-pill mt-3 mt-md-0"
                                 onclick="show('Database')"> Database </a>
                         </li>
-                    </ul>
-                    <ul class="d-flex justify-content-between aling-items-center nav ">
-                        <li class=" ">
-                            <a href="javascript:void(0)" class="btn cus-border cus-hover text-white mx-1 rounded-pill "
+
+                        <li class="flex-grow-1 ">
+                            <a href="javascript:void(0)"
+                                class="btn cus-border cus-hover text-white mx-1  mt-3 mt-md-0 rounded-pill "
                                 onclick="show('Frameworks')"> Frameworks </a>
                         </li>
                         <li>
@@ -797,8 +860,8 @@
                 </div>
     </section>
     <!-- **************************Technology Section End************************* -->
-    <!--  INDUSTRIES WE WORK FOR--> 
-    <section class="py-5">
+    <!--  INDUSTRIES WE WORK FOR-->
+    <section class="py-5" >
         <div class="container">
             <div class="col-md-12 text-center">
                 <h4 class="indus">
@@ -887,39 +950,107 @@
         </div>
     </section>
     <!-- ***********************Pride Section************************ -->
-    <section>
+    <section class="py-5" style="background-color:#404041;">
         <div class="container">
-            <div class="col-lg-12 text-center">
-                <h2>Our Pride</h2>
-                <p>Explore the feathers in our hat</p>
+            <div class="col-lg-12 py-3 text-center">
+                <h2 class="text-white">Our Pride</h2>
+                <p class="text-white">Explore the feathers in our hat</p>
             </div>
             <div class="row g-3">
-               
-                    
-                       
-                            <div class="text-center col-6 col-md-2">
-                                 <img src="assets/image/pride-1.png" alt="" class="img-fluid" style="width: 130px; height: 90px;"></div>
-                            <div class="text-center col-6 col-md-2">
-                                <img src="assets/image/pride-2.png" alt=""  class="img-fluid" style="width: 130px; height: 90px;"> </div>
-                            <div class="text-center col-6 col-md-2">
-                                <img src="assets/image/pride-3.png" alt="" class="img-fluid" style ="width: 130px; height: 90px;">  </div>
-                            <div class="text-center col-6 col-md-2">
-                                <img src="assets/image/pride-4.png" alt="" class="img-fluid" style ="width: 130px; height: 90px;"> </div>
-                            <div class="text-center col-6 col-md-2">
-                                <img src="assets/image/pride-5.png" alt="" class="img-fluid" style ="width: 130px; height: 90px;">  </div>
-                            <div class="text-center col-6 col-md-2">
-                                <img src="assets/image/pride-6.png" alt="" class="img-fluid" style ="width: 130px; height: 90px;">  </div>
-                          
+                <div class="text-center col-6 col-md-2">
+                    <img src="assets/image/pride-1.png" alt="" class="img-fluid" style="width: 130px; height: 90px;">
+                </div>
+                <div class="text-center col-6 col-md-2">
+                    <img src="assets/image/pride-2.png" alt="" class="img-fluid" style="width: 130px; height: 90px;">
+                </div>
+                <div class="text-center col-6 col-md-2">
+                    <img src="assets/image/pride-3.png" alt="" class="img-fluid" style="width: 130px; height: 90px;">
+                </div>
+                <div class="text-center col-6 col-md-2">
+                    <img src="assets/image/pride-4.png" alt="" class="img-fluid" style="width: 130px; height: 90px;">
+                </div>
+                <div class="text-center col-6 col-md-2">
+                    <img src="assets/image/pride-5.png" alt="" class="img-fluid" style="width: 130px; height: 90px;">
+                </div>
+                <div class="text-center col-6 col-md-2">
+                    <img src="assets/image/pride-6.png" alt="" class="img-fluid" style="width: 130px; height: 90px;">
+                </div>
             </div>
         </div>
+    </section>
+    <!-- contact us page -->
+    <section class="py-5 ">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-12 col-md-6">
+                    <div class="contact-us-img">
+                        <img src="assets/image/contact-us-vector.svg" alt="contact-us-img" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 bg-linear shadow-lg">
+                     <div class="home-right   p-4 rounded" style="height:400px;">
+                       <span class="text-left text-primary mb-3 d-block ">Contact Us</span>
+                        <form class="row g-3">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control " id="InputName" placeholder="First Name*"
+                                    required aria-required="true">
+                            </div> 
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" id="InputNumber" placeholder="Mobile Number"
+                                    required aria-required="true">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address*"
+                                    required aria-required="true">
+                            </div>
+                            <div class="col-md-12">
+                                <select style="padding:6px 10px !important;" id="service_slug" name="service_slug"
+                                    class=" form-select form-control dropdown  text-muted  " required="">
+                                    <option value="" selected="">Select Service Category</option>
+                                    <option value="On Demand App (App Development)"> On Demand App </option>
+                                    <option value="E-Commerce &amp; Marketplace (App Development)"> E-Commerce &amp;
+                                        Marketplace </option>
+                                    <option value="Food &amp; Beverage (App Development)"> Food &amp; Beverage </option>
+                                    <option value="Pickup &amp; Delivery (App Development)"> Pickup &amp; Delivery
+                                    </option>
+                                    <option value="Healthcare &amp; Medical (App Development)"> Healthcare &amp; Medical
+                                    </option>
+                                    <option value="Trading App (App Development)"> Trading App </option>
+                                    <option value="Laundry &amp; Home Service (App Development)"> Laundry &amp; Home
+                                        Service </option>
+                                    <option value="Real Estate (App Development)"> Real Estate </option>
+                                    <option value="Banking &amp; Finance (App Development)"> Banking &amp; Finance
+                                    </option>
+                                    <option value="Education &amp; Learning (App Development)"> Education &amp; Learning
+                                    </option>
+                                    <option value="Transportation (App Development)"> Transportation </option>
+                                    <option value="Game App (App Development)"> Game App </option>
+                                    <option value="Luxary Clothing (App Development)"> Luxary Clothing </option>
+                                    <option value="Skin Care (App Development)"> Skin Care </option>
+                                    <option value="IOT (App Development)">IOT</option>
+                                    <option value="others (App Development)">Others</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control t-area" aria-label="With textarea" placeholder="Message*"
+                                   ></textarea>
+                            </div>
+
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn  text-dark border rounded">Send Now</button>
+                            </div>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
     </section>
     <!--Custome js CDN Link -->
     <!-- ************************ jquery******************* -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
@@ -931,6 +1062,19 @@
 
     <script src="assets/js/main.js"></script>
 
+    <script src="assets/js/typed.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: [
+                'Android Development ',
+                'Ios Development ',
+                'Web Development '
+            ],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
 </body>
 
 </html>
