@@ -12,8 +12,8 @@
     ================ Table of Content End ================ */
 
 
- 
- 
+
+
 /* ======== Reset ======== */
 
 *,
@@ -44,8 +44,8 @@ a:focus {
 
 :root {
     --bg-color: #f58322;
-    --t-color:#f58322; 
-   
+    --t-color: #f58322;
+
 }
 
 
@@ -64,34 +64,36 @@ body {
 
     font-family: 'Roboto', sans-serif;
 }
- 
- h1,
+
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     font-weight: 700;
-}  
+}
 
 .bg-color {
     background-color: var(--bg-color);
-} 
- 
-.cus-border{
-    border:1px solid var(--bg-color);
-}  
-.cus-hover:hover{
+}
+
+.cus-border {
+    border: 1px solid var(--bg-color);
+}
+
+.cus-hover:hover {
     background-color: #f58322;
 }
+
 .opcity-75 {
     opacity: 0.75;
 }
 
-.bg-linear{
-    background-image: linear-gradient(20deg,rgba(245,231,34,0.4),rgba(145,231,34,0.4));
+.bg-linear {
+    background-image: linear-gradient(20deg, rgba(245, 231, 34, 0.4), rgba(145, 231, 34, 0.4));
 }
- 
+
 
 .t-color {
     color: var(--t-color);
@@ -100,67 +102,76 @@ h6 {
 /* ================ Global Class End ================ */
 
 /* ================ Home Design Start ================ */
-   .hero{
+.hero {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(20deg,rgba(245,231,34,0.4),rgba(145,231,34,0.4));
- }  
- .welcome-intro h1{
+    background-image: linear-gradient(20deg, rgba(245, 231, 34, 0.4), rgba(145, 231, 34, 0.4));
+}
+
+.welcome-intro h1 {
     font-size: 50px;
- }
- .welcome-intro h2{
-     font-weight: 400!important;
+}
+
+.welcome-intro h2 {
+    font-weight: 400 !important;
     line-height: 50px;
- }
- /* Mobile frame style */
- .phone {
-width: 250px;
-height: 450px;
-border: 40px solid #121212;
-border-width: 55px 7px;
-border-radius: 40px;
-margin: 50px auto;
-overflow: hidden;
-position: relative;
-transition: all 0.5s ease;
- background-color: #fff;
- box-shadow: 0px 15px 10px -15px #111;    
 }
- 
+
+/* Mobile frame style */
+.phone {
+    width: 250px;
+    height: 450px;
+    border: 40px solid #121212;
+    border-width: 55px 7px;
+    border-radius: 40px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease;
+    background-color: #fff;
+    box-shadow: 0px 15px 10px -15px #111;
+}
+
 .cus-form .form-control {
-    padding: 0!important;
-    padding-left: 6px!important;
-    box-shadow: none!important;
+    padding: 0 !important;
+    padding-left: 6px !important;
+    box-shadow: none !important;
 }
-.cus-form .form-select option{
-    font-size: 14px!important;
+
+.cus-form .form-select option {
+    font-size: 14px !important;
 }
-.cus-form label{
-    padding-bottom: 4!important;
-    font-size: 14px!important;
+
+.cus-form label {
+    padding-bottom: 4 !important;
+    font-size: 14px !important;
 }
- 
+
 /* ================ Home Design End ================ */
 
 /* ================ Customer Engaged section ================ */
 
-.d-box-1{
+.d-box-1 {
     width: 100%;
     height: 100%;
-    background-image: url('../image/circel.png');
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .075) !important;
+    /* background-image: url('../image/circel.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
-.main-box{
-    padding: 70px 0;
+
+.main-box {
+    /* padding: 70px 0; */
 }
+
 .d-box-1 h3 {
     font-size: 70px;
     font-weight: 700;
     color: #25aae1;
 }
-.d-box-1 h5{
+
+.d-box-1 h5 {
     background-color: #25aae1;
     display: inline-block;
     color: #fff;
@@ -169,91 +180,108 @@ transition: all 0.5s ease;
     padding: 5px 10px;
     max-width: 260px;
 }
- 
-.d-box-1 p{
-    padding: 0 70px;
+
+.d-box-1 p {
+    /* padding: 0 70px; */
 }
- /************************ keybenifits******************** */
- .key-benifits-icon h3{
+
+/************************ keybenifits******************** */
+.key-benifits-icon h3 {
     font-size: 18px;
-    color: white; 
+    color: white;
     margin-top: 10px;
- }
- /* technology */
- .content1{
+}
+
+/* technology */
+.content1 {
     width: 100%;
     height: auto;
-   
+
     padding: 5px;
     margin-top: 30px;
     display: none;
-  }
-  
-  .block{
-    display: block;
-  }
-  /* Technology list */
- /* ***********************footer section********************** */
- .link-hover li {
-margin-bottom: 10px;
- }
- .link-hover a:hover {
-    color: #f66f01!important;
-    transition: all 1s ease-out;
-  border: 1px solid #f66f01!important;
- 
 }
+
+.block {
+    display: block;
+}
+
+/* Technology list */
+/* ***********************footer section********************** */
+.link-hover li {
+    margin-bottom: 10px;
+}
+
+.link-hover a:hover {
+    color: #f66f01 !important;
+    transition: all 1s ease-out;
+    border: 1px solid #f66f01 !important;
+
+}
+
 /* =================================================  
     ************  Responsive Class  Start ************
    =================================================  */
-@media (max-width:620px){
-    .welcome-intro{
-        text-align: center!important;
-        height: auto!important;
+@media (max-width:620px) {
+    .welcome-intro {
+        text-align: center !important;
+        height: auto !important;
     }
-    .welcome-intro h1{
-        font-size: 30px; 
-     }
-     .dynamic-text{
-        height: 30px; 
-     }
-     .dynamic-text li{
-         top: -2px;
+
+    .welcome-intro h1 {
+        font-size: 30px;
+    }
+
+    .dynamic-text {
+        height: 30px;
+    }
+
+    .dynamic-text li {
+        top: -2px;
         font-size: 25px;
+    }
+
+    .t-area {
+        height: auto !important;
+    }
+
+    .home-right {
+        height: auto !important;
+    }
+
+    .hero {
+        padding: 25px;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+        height: auto;
+    }
 }
-.t-area{
-    height: auto!important;
-}
-.home-right {
-    height: auto!important;
-}
-.hero{
-    padding: 25px;
-}
-.navbar-brand img{
-    width: 150px;
-    height: auto;
-}
-}
+
 /* ==== tablet View ==== */
-  @media (max-width:720px){
-    .welcome-intro{
-        text-align: center!important;
+@media (max-width:720px) {
+    .welcome-intro {
+        text-align: center !important;
     }
-    .welcome-intro h1{
+
+    .welcome-intro h1 {
         font-size: 35px;
-     }
-     .welcome-intro h2{
+    }
+
+    .welcome-intro h2 {
         font-size: 25px;
-     }
+    }
 }
-@media (max-width:950px){ 
-    .welcome-intro h1{
-        font-size: 45px;
-     }
+
+@media (max-width:950px) {
+    .welcome-intro h1 {
+        font-size: 25px;
+    }
 }
+
 /* Engage section */
-  @media only screen and (max-width: 375px){
+/* @media only screen and (max-width: 375px){
   .d-box-1 h5 {
     font-size: 12px;
 }
@@ -286,8 +314,6 @@ margin-bottom: 10px;
     font-size: 15px;
     max-width: 210px;
 }
-}  
+}   */
 
 /* test */
-
-  
