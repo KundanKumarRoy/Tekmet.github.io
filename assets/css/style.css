@@ -161,9 +161,9 @@ h6 {
     background-position: center; */
 }
 
-.main-box {
-    /* padding: 70px 0; */
-}
+/* .main-box {
+      padding: 70px 0;  
+} */
 
 .d-box-1 h3 {
     font-size: 70px;
@@ -181,9 +181,9 @@ h6 {
     max-width: 260px;
 }
 
-.d-box-1 p {
-    /* padding: 0 70px; */
-}
+/* .d-box-1 p {
+     padding: 0 70px; 
+} */
 
 /************************ keybenifits******************** */
 .key-benifits-icon h3 {
@@ -192,7 +192,7 @@ h6 {
     margin-top: 10px;
 }
 
-/* technology */
+/* ************************technology *************************/
 .content1 {
     width: 100%;
     height: auto;
@@ -206,7 +206,43 @@ h6 {
     display: block;
 }
 
-/* Technology list */
+/* ************************Technology list End*************************/
+
+/* ************************Technology list End*************************/
+.bg-hero{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../image/bg-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.country-sec{
+    width: 100%;
+    min-height: 320px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    background-color: #1f6771;
+    
+}
+.flag img{ 
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid #1f6771;
+}
+.country-sec h3{
+ margin-top: 50px;     
+ color: white;
+}
+ 
+ 
 /* ***********************footer section********************** */
 .link-hover li {
     margin-bottom: 10px;
