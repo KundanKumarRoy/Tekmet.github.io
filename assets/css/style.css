@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*  ================ Table of Content End ================
         1. Fonts
@@ -185,6 +185,38 @@ h6 {
      padding: 0 70px; 
 } */
 
+/*************************** why choose us section***************************** */
+
+.hexagon {
+    width: 150px;
+    height: 75.735px;
+    background: #808080;
+    position: relative;
+    margin: 0 auto;
+  }
+  .hexagon::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 28.8675px solid #808080;
+  }
+  .hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 28.8675px solid #808080;
+  }
+    
 /************************ keybenifits******************** */
 .key-benifits-icon h3 {
     font-size: 18px;
