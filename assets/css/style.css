@@ -267,7 +267,10 @@ h6 {
     .welcome-intro h1 {
         font-size: 30px;
     }
-
+.welcome-intro .info{
+    font-size: 14px; 
+    line-height: 23px;
+}
     .dynamic-text {
         height: 30px;
     }
